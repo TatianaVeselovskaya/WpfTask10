@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfTask10"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1500" Width="800" Background="DarkOliveGreen">
+        Title="MainWindow" Height="500" Width="800" Background="DarkOliveGreen">
 
     <StackPanel>
         <!--TourEiffel-->
@@ -58,11 +58,11 @@
             </Border.RenderTransform>
         </Border>
 
-        <Border Width="210" Height="137">
+        <Border Width="220" Height="137">
             <Border.Background>
                 <VisualBrush Visual="{Binding ElementName=myImage2}">
                     <VisualBrush.Transform>
-                        <ScaleTransform ScaleX="1" ScaleY="-1" CenterX="215" CenterY="-1000">
+                        <ScaleTransform ScaleX="1" ScaleY="-1" CenterX="215" CenterY="65">
                         </ScaleTransform>
                     </VisualBrush.Transform>
                 </VisualBrush>
@@ -96,11 +96,11 @@
             </Border.RenderTransform>
         </Border>
 
-        <Border Width="220" Height="137">
+        <Border Width="222" Height="137">
             <Border.Background>
                 <VisualBrush Visual="{Binding ElementName=myImage3}">
                     <VisualBrush.Transform>
-                        <ScaleTransform ScaleX="1" ScaleY="-1" CenterX="220" CenterY="-100">
+                        <ScaleTransform ScaleX="1" ScaleY="-1" CenterX="220" CenterY="65">
                         </ScaleTransform>
                     </VisualBrush.Transform>
                 </VisualBrush>
@@ -113,7 +113,7 @@
             </Border.OpacityMask>
             <Border.RenderTransform>
                 <TransformGroup>
-                    <TranslateTransform X="100" Y="-560"/>
+                    <TranslateTransform X="105" Y="-560"/>
                     <SkewTransform CenterX="30" CenterY="2" AngleX="20" AngleY="0"/>
                     <RotateTransform Angle="-10"/>
                 </TransformGroup>
